@@ -1,0 +1,4 @@
+Birth date,First name,Last name,Weight
+1/1/1970,John,Smith,81.5
+31/1/1975,Jane,Doe,61.1
+28/11/1988,Bob,Big,102.4

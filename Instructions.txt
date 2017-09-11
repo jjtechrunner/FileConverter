@@ -1,0 +1,26 @@
+Instructions
+-----------
+
+Run the application from command line using 
+./FFFC -i input file -m metadata file -o output file
+
+
+Examples
+./FFFC -i Sample.txt -m metadata.txt -o outputFile.txt
+./FFFC -i Sample1.txt -m metadata1.txt -o outputFile1.txt
+
+
+Design
+======
+Application is written in C++ 98, compiled with gcc.
+3rd Party Libraries used: boost
+
+Appication is written such a way that it can handle any number of columns in the fixed format file and
+can write to the output file.
+
+Created data type classes
+   - FldDate to handle date type from string
+   - FldNumeric to handle the float data type
+   - FldName to handle the name with the string with a maximum length of 15
+   - FldUTFString to handle the string with any length
+   
